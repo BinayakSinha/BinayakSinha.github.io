@@ -1,0 +1,341 @@
+{
+  "_readme": "Edit this file to update the site. Counts and filters update themselves. Optional per project: \"link\" (repo URL) and \"badge\".",
+  "skills": [
+    {
+      "group": "AI & ML",
+      "items": [
+        "Machine Learning",
+        "Deep Learning",
+        "NLP",
+        "GenAI",
+        "LLM Fine-tuning",
+        "Prompt Engineering",
+        "MLOps",
+        "TensorFlow",
+        "NumPy",
+        "Pandas"
+      ]
+    },
+    {
+      "group": "Languages",
+      "items": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "group": "Data",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "NoSQL",
+        "Power BI"
+      ]
+    },
+    {
+      "group": "Build",
+      "items": [
+        "FastAPI",
+        "React",
+        "Flutter",
+        "Figma"
+      ]
+    },
+    {
+      "group": "Cloud & DevOps",
+      "items": [
+        "AWS",
+        "Git",
+        "Linux",
+        "Jenkins",
+        "GitHub Actions",
+        "CI/CD Pipelines"
+      ]
+    },
+    {
+      "group": "Quantum",
+      "items": [
+        "Qiskit",
+        "PennyLane"
+      ]
+    },
+    {
+      "group": "Testing",
+      "items": [
+        "Selenium",
+        "Cypress",
+        "Postman"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Data Engineer Intern",
+      "org": "Zemoso Technology",
+      "from": "JAN 2026",
+      "to": "PRESENT",
+      "active": true
+    },
+    {
+      "role": "Quantum ML Research Intern",
+      "org": "AnantWave",
+      "from": "MAY 2025",
+      "to": "NOV 2025"
+    },
+    {
+      "role": "App Developer",
+      "org": "Prayana Electric",
+      "from": "NOV 2024",
+      "to": "JAN 2025"
+    },
+    {
+      "role": "Projects Lead",
+      "org": "Machine Learning Club, VIT-AP",
+      "from": "2024",
+      "to": "2025"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Song Recommendation System",
+      "category": "QUANTUM",
+      "badge": "MAIN INTERNSHIP PROJECT",
+      "description": "Song recommendations powered by Grover's search algorithm. This was my main internship project.",
+      "tags": [
+        "Grover's Algorithm",
+        "Quantum ML"
+      ]
+    },
+    {
+      "title": "Real-time AI Assistant Backend",
+      "category": "BACKEND",
+      "description": "A high-performance, asynchronous Python backend that simulates a real-time AI agent. It covers bi-directional WebSockets, LLM token streaming, complex agentic tool use and asynchronous database persistence.",
+      "tags": [
+        "Python",
+        "WebSockets",
+        "LLM Streaming",
+        "Agents"
+      ]
+    },
+    {
+      "title": "Mini-LangGraph Workflow Engine",
+      "category": "BACKEND",
+      "badge": "INTERNSHIP ASSIGNMENT",
+      "description": "A lightweight, async-first backend engine for defining and executing agentic workflows. Built for an AI Engineering internship assignment.",
+      "tags": [
+        "Python",
+        "Async",
+        "Agent Workflows"
+      ]
+    },
+    {
+      "title": "Product Recommendation System",
+      "category": "AI / ML",
+      "badge": "FINAL YEAR PROJECT",
+      "description": "Product data lives in MongoDB. A search query, combined with the budget limit and filters the user sets, returns the k nearest matching products.",
+      "tags": [
+        "MongoDB",
+        "k-NN",
+        "Search"
+      ]
+    },
+    {
+      "title": "Tripster",
+      "category": "APPS",
+      "description": "Builds trip plans from a search query, in the same spirit as the product recommender but with filters like number of days and budget. Data in Supabase, locations from the Google Maps API.",
+      "tags": [
+        "Supabase",
+        "Google Maps API"
+      ]
+    },
+    {
+      "title": "Product Price Tracker",
+      "category": "AUTOMATION",
+      "description": "A continuous daily web-scrape pipeline that keeps a Supabase database up to date, with a React UI and a Python pipeline. It emails me when a price drops below the base price I set.",
+      "tags": [
+        "Python",
+        "Scraping",
+        "Supabase",
+        "React"
+      ]
+    },
+    {
+      "title": "Financial Tracker Using SMS",
+      "category": "AUTOMATION",
+      "description": "Tracks savings, spending and current balance. MacroDroid and Tailscale trigger whenever a transaction SMS arrives. Each month it cross-checks the totals against the bank statement PDF from email.",
+      "tags": [
+        "MacroDroid",
+        "Tailscale",
+        "PDF parsing"
+      ]
+    },
+    {
+      "title": "Gym App",
+      "category": "APPS",
+      "badge": "IN PROGRESS",
+      "description": "A Flutter app that scans gym equipment, names it, and lists the exercises you can do with it. It currently classifies 5 machines at 75% accuracy, and it also helps plan workouts.",
+      "tags": [
+        "Flutter",
+        "Image Classification"
+      ]
+    },
+    {
+      "title": "Bengali to English Translator",
+      "category": "AI / ML",
+      "description": "A Bengali to English translator built on a BERT model from Hugging Face.",
+      "tags": [
+        "NLP",
+        "BERT",
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "RAG Using Llama 2",
+      "category": "AI / ML",
+      "description": "Practice project exploring chunking strategies for retrieval-augmented generation.",
+      "tags": [
+        "Llama 2",
+        "RAG"
+      ]
+    },
+    {
+      "title": "stackbot-agent",
+      "category": "AI / ML",
+      "description": "Prompt-engineering practice: an agent that recommends a tech stack to junior developers for their projects, using Gemini 2.5.",
+      "tags": [
+        "Gemini 2.5",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "title": "Quantum Binary Classifier",
+      "category": "QUANTUM",
+      "description": "A first quantum computing project: a binary classifier.",
+      "tags": [
+        "Quantum Computing"
+      ]
+    },
+    {
+      "title": "Fruit and Vegetable Classifier",
+      "category": "AI / ML",
+      "description": "Built and trained a Keras neural network to classify fruits and vegetables.",
+      "tags": [
+        "Keras",
+        "Neural Networks"
+      ]
+    },
+    {
+      "title": "Resume",
+      "category": "APPS",
+      "description": "An ATS checker and resume builder.",
+      "tags": [
+        "ATS"
+      ]
+    },
+    {
+      "title": "Binance Trading Bot",
+      "category": "AUTOMATION",
+      "description": "An automated trade workflow for Binance.",
+      "tags": [
+        "Trading",
+        "Automation"
+      ]
+    },
+    {
+      "title": "Crypto_bot",
+      "category": "AI / ML",
+      "description": "Practice project on crypto mining and price prediction.",
+      "tags": [
+        "Prediction"
+      ]
+    },
+    {
+      "title": "jenkins-selenium-pipeline",
+      "category": "AUTOMATION",
+      "description": "A QA testing workflow.",
+      "tags": [
+        "Jenkins",
+        "Selenium",
+        "CI/CD"
+      ]
+    },
+    {
+      "title": "Data Hub",
+      "category": "APPS",
+      "description": "A data hub built in React, as practice.",
+      "tags": [
+        "React"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "issuer": "Anthropic",
+      "items": [
+        "Claude with Google Cloud’s Vertex AI",
+        "Claude with Amazon Bedrock",
+        "Claude Code in Action",
+        "Building with the Claude API",
+        "Introduction to Model Context Protocol",
+        "Model Context Protocol: Advanced Topics",
+        "Introduction to Agent Skills",
+        "Claude 101",
+        "AI Fluency: Framework & Foundations"
+      ]
+    },
+    {
+      "issuer": "Oracle",
+      "items": [
+        "OCI 2025 Certified Generative AI Professional",
+        "OCI 2025 Certified Data Science Professional",
+        "OCI 2025 Certified AI Foundations Associate",
+        "OCI 2025 Certified Foundations Associate"
+      ]
+    },
+    {
+      "issuer": "NVIDIA",
+      "items": [
+        "Fundamentals of Deep Learning",
+        "Building Transformer-Based NLP Applications",
+        "Accelerating End-to-End Data Science Workflows",
+        "Applications of AI for Predictive Maintenance"
+      ]
+    },
+    {
+      "issuer": "MongoDB",
+      "items": [
+        "MongoDB Associate Database Administrator",
+        "From Relational Model (SQL) to MongoDB’s Document Model"
+      ]
+    },
+    {
+      "issuer": "Amazon Web Services",
+      "items": [
+        "AWS Academy Graduate: Cloud Architecting",
+        "AWS Educate: Introduction to Generative AI"
+      ]
+    },
+    {
+      "issuer": "VIT-AP",
+      "items": [
+        "Quantum Computing, Machine Learning and AI",
+        "Machine Learning Club (MLC VIT-AP)"
+      ]
+    },
+    {
+      "issuer": "IBM",
+      "items": [
+        "Gen AI Using IBM watsonx"
+      ]
+    },
+    {
+      "issuer": "MathWorks",
+      "items": [
+        "MATLAB"
+      ]
+    }
+  ]
+}

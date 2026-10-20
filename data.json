@@ -1,28 +1,113 @@
 {
-  "_readme": "Edit this file to update the site. Counts and filters update themselves. Optional per project: \"link\" (repo URL) and \"badge\".",
+  "_readme": "Edit this file to update the site. Counts and filter buttons update themselves. Skills: a plain string, or {\"name\":..., \"level\":\"Basic\"} to mark it as foundational. Projects: \"link\" and \"badge\" are optional (no link = no button). Bio: wrap words in **double asterisks** to highlight them.",
+  "profile": {
+    "bio": [
+      "Software engineer (AI & ML, class of 2026) building **backend services, LLM applications** (RAG, agents, MCP) and **data pipelines**.",
+      "Right now I'm a **Data Engineer Intern at Zemoso Technologies**, building Python/FastAPI services on AWS and Jenkins CI/CD pipelines. Before that, I did quantum ML research at AnantWave and app development at Prayana Electric."
+    ],
+    "tags": [
+      "Hyderabad, India",
+      "Open to relocation",
+      "English · Hindi · Bengali · French (basic)"
+    ],
+    "education": {
+      "school": "VIT-AP University",
+      "degree": "B.Tech, Computer Science & Engineering (AI & ML)",
+      "years": "2022 – 2026",
+      "cgpa": "8.17"
+    }
+  },
   "skills": [
-    {
-      "group": "AI & ML",
-      "items": [
-        "Machine Learning",
-        "Deep Learning",
-        "NLP",
-        "GenAI",
-        "LLM Fine-tuning",
-        "Prompt Engineering",
-        "MLOps",
-        "TensorFlow",
-        "NumPy",
-        "Pandas"
-      ]
-    },
     {
       "group": "Languages",
       "items": [
         "Python",
         "Java",
+        "TypeScript",
         "JavaScript",
-        "SQL"
+        "SQL",
+        {
+          "name": "Bash",
+          "level": "Basic"
+        }
+      ]
+    },
+    {
+      "group": "AI / LLM",
+      "items": [
+        "LLM APIs (Claude, Bedrock, Gemini, OpenAI SDK, Groq, Ollama)",
+        "RAG",
+        "Embeddings",
+        "FAISS",
+        "AI Agents",
+        "Tool Calling",
+        "MCP",
+        "WebMCP",
+        "Agent Skills",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "group": "ML / DL",
+      "items": [
+        "scikit-learn",
+        "Pandas",
+        "NumPy",
+        "TensorFlow / Keras",
+        "TFLite",
+        "PyTorch",
+        "Hugging Face Transformers",
+        "Fine-tuning",
+        "Computer Vision",
+        "Time-series Forecasting",
+        "NLP (spaCy, TF-IDF)"
+      ]
+    },
+    {
+      "group": "Quantum",
+      "items": [
+        "Qiskit",
+        "PennyLane",
+        "TensorFlow Quantum",
+        "Cirq"
+      ]
+    },
+    {
+      "group": "Backend",
+      "items": [
+        "FastAPI",
+        "Node.js",
+        "Express",
+        "Hono",
+        "REST APIs",
+        "WebSockets",
+        "SSE",
+        "Webhooks"
+      ]
+    },
+    {
+      "group": "Frontend & Mobile",
+      "items": [
+        "React",
+        "HTML / CSS",
+        "Flutter",
+        "Riverpod",
+        {
+          "name": "MUI",
+          "level": "Basic"
+        },
+        {
+          "name": "Recharts",
+          "level": "Basic"
+        },
+        {
+          "name": "Storybook",
+          "level": "Basic"
+        },
+        {
+          "name": "Figma",
+          "level": "Basic"
+        }
       ]
     },
     {
@@ -31,35 +116,56 @@
         "PostgreSQL",
         "MySQL",
         "MongoDB",
-        "NoSQL",
-        "Power BI"
+        "Supabase",
+        "Firebase",
+        "ETL Pipelines",
+        "Web Scraping",
+        "Data Modeling",
+        {
+          "name": "Redis",
+          "level": "Basic"
+        },
+        {
+          "name": "Spark / PySpark",
+          "level": "Basic"
+        },
+        {
+          "name": "Hadoop / Hive",
+          "level": "Basic"
+        },
+        {
+          "name": "Airflow",
+          "level": "Basic"
+        },
+        {
+          "name": "Power BI",
+          "level": "Basic"
+        }
       ]
     },
     {
-      "group": "Build",
-      "items": [
-        "FastAPI",
-        "React",
-        "Flutter",
-        "Figma"
-      ]
-    },
-    {
-      "group": "Cloud & DevOps",
+      "group": "DevOps & Cloud",
       "items": [
         "AWS",
+        "Jenkins CI/CD",
+        "GitHub Actions",
+        "Docker",
+        "Docker Compose",
         "Git",
         "Linux",
-        "Jenkins",
-        "GitHub Actions",
-        "CI/CD Pipelines"
-      ]
-    },
-    {
-      "group": "Quantum",
-      "items": [
-        "Qiskit",
-        "PennyLane"
+        "Render",
+        {
+          "name": "Oracle Cloud (OCI)",
+          "level": "Basic"
+        },
+        {
+          "name": "Kubernetes",
+          "level": "Basic"
+        },
+        {
+          "name": "Terraform",
+          "level": "Basic"
+        }
       ]
     },
     {
@@ -67,207 +173,360 @@
       "items": [
         "Selenium",
         "Cypress",
-        "Postman"
+        "pytest",
+        "Postman",
+        {
+          "name": "Vitest",
+          "level": "Basic"
+        },
+        {
+          "name": "React Testing Library",
+          "level": "Basic"
+        },
+        {
+          "name": "Playwright",
+          "level": "Basic"
+        }
+      ]
+    },
+    {
+      "group": "Core",
+      "items": [
+        "Data Structures & Algorithms",
+        "OOP",
+        "Design Patterns"
       ]
     }
   ],
   "experience": [
     {
       "role": "Data Engineer Intern",
-      "org": "Zemoso Technology",
+      "org": "Zemoso Technologies",
       "from": "JAN 2026",
       "to": "PRESENT",
-      "active": true
+      "active": true,
+      "points": [
+        "Build and maintain backend services and REST APIs (Python, FastAPI, SQL) for AI-driven, data-processing applications deployed on AWS.",
+        "Build and maintain CI/CD pipelines in Jenkins to automate builds and deployments.",
+        "Write and maintain automated test suites (Selenium, Cypress) for web applications.",
+        "Worked with Kubernetes and Terraform at a foundational level to understand project infrastructure."
+      ],
+      "tech": [
+        "Python",
+        "FastAPI",
+        "SQL",
+        "AWS",
+        "Jenkins",
+        "Selenium",
+        "Cypress"
+      ]
     },
     {
       "role": "Quantum ML Research Intern",
       "org": "AnantWave",
+      "location": "Remote",
       "from": "MAY 2025",
-      "to": "NOV 2025"
+      "to": "NOV 2025",
+      "points": [
+        "Implemented a song recommendation search based on Grover's quantum search algorithm (Spotify data) and benchmarked it against classical baselines."
+      ],
+      "tech": [
+        "Python",
+        "PennyLane",
+        "Qiskit",
+        "Pandas"
+      ]
     },
     {
       "role": "App Developer",
       "org": "Prayana Electric",
       "from": "NOV 2024",
-      "to": "JAN 2025"
+      "to": "JAN 2025",
+      "points": [
+        "Developed authentication, real-time availability tracking and geolocation for a production e-bike rental app, in a 4-person team."
+      ],
+      "tech": [
+        "Flutter",
+        "Firebase"
+      ]
     },
     {
       "role": "Projects Lead",
       "org": "Machine Learning Club, VIT-AP",
       "from": "2024",
-      "to": "2025"
+      "to": "2025",
+      "points": [
+        "Led student ML projects for the university Machine Learning Club."
+      ]
     }
   ],
   "projects": [
     {
-      "title": "Song Recommendation System",
-      "category": "QUANTUM",
-      "badge": "MAIN INTERNSHIP PROJECT",
-      "description": "Song recommendations powered by Grover's search algorithm. This was my main internship project.",
+      "title": "Hearth: Family Memory for Alexa+",
+      "category": "AI AGENTS",
+      "badge": "IN PROGRESS",
+      "description": "An MCP server that turns Alexa+ into a shared family journal: speaking practice for kids, a daily log for parents with pattern detection and Q&A, and a memoir mode for grandparents. Family Threads pass stories between generations, a family-table mode handles several speakers, and a weekly Family Radio recap sums it up. Privacy, consent and child-safety rules are enforced in code.",
       "tags": [
-        "Grover's Algorithm",
-        "Quantum ML"
+        "TypeScript",
+        "MCP",
+        "Amazon Bedrock",
+        "Alexa+"
+      ]
+    },
+    {
+      "title": "PerplScope",
+      "category": "FULL STACK",
+      "badge": "HACKATHON BUILD",
+      "link": "https://github.com/BinayakSinha/PerplScope",
+      "description": "Real-time analytics and risk dashboard for the Perpl perpetuals exchange on Monad. An indexer rebuilds trades from on-chain events to show PnL, drawdown, win rate, liquidation price, a leaderboard and a compare view. It also ships a MetaMask Agent Wallet CLI plugin and agent skill with a pre-trade risk gate, eth_call simulation, a liquidation guard and JSON output for agents.",
+      "tags": [
+        "TypeScript",
+        "Hono",
+        "React",
+        "viem",
+        "SSE"
+      ]
+    },
+    {
+      "title": "SwasthyaGrid AI",
+      "category": "AI / ML",
+      "link": "https://github.com/BinayakSinha/swasthyagrid-ai",
+      "description": "Medicine-supply platform for primary health centres. Time-series demand forecasting (lag and rolling features, Ridge with Gradient Boosting on residuals, recursive 7-day forecasts) feeds stock-out risk levels, redistribution suggestions and outbreak simulation, with a Gemini copilot for plain-language questions. Tested with pytest.",
+      "tags": [
+        "FastAPI",
+        "scikit-learn",
+        "Gemini",
+        "React",
+        "pytest"
+      ]
+    },
+    {
+      "title": "Tripster",
+      "category": "AI AGENTS",
+      "badge": "OPENAI WEBMCP CHALLENGE",
+      "link": "https://github.com/BinayakSinha/Tripster",
+      "description": "Agent-native trip planner. 0/1 knapsack time-blocking plus 2-opt TSP routing plans a trip in under 100 ms, a minimax midpoint finds fair meeting spots for groups, and WebMCP browser tools let an agent plan trips and update the live UI. A PostgreSQL trigger auto-verifies spots, and the whole stack runs at $0/month.",
+      "tags": [
+        "React",
+        "Supabase",
+        "PostGIS",
+        "Leaflet",
+        "WebMCP"
+      ]
+    },
+    {
+      "title": "Product Price Tracker",
+      "category": "DATA & AUTOMATION",
+      "link": "https://github.com/BinayakSinha/Product_Price_Tracker",
+      "description": "Daily scraping ETL on scheduled GitHub Actions, writing to a normalised PostgreSQL schema (products, listings, price history) with duplicate-alert prevention. Sends an email when a price drops and charts history in React.",
+      "tags": [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "GitHub Actions",
+        "React"
+      ]
+    },
+    {
+      "title": "Financial Tracker via SMS",
+      "category": "DATA & AUTOMATION",
+      "link": "https://github.com/BinayakSinha/Financial-Tracker-Using-SMS",
+      "description": "MacroDroid fires on every bank SMS and calls a webhook API that parses and categorises the transaction into PostgreSQL. Tracks savings, spending and balance, reconciles monthly against bank-statement PDFs, and shows it all on a React dashboard.",
+      "tags": [
+        "TypeScript",
+        "Express",
+        "PostgreSQL",
+        "MacroDroid",
+        "Tailscale"
+      ]
+    },
+    {
+      "title": "Gym Equipment App",
+      "category": "APPS",
+      "badge": "ONGOING",
+      "link": "https://github.com/BinayakSinha/Gym-app",
+      "description": "Flutter app that identifies gym equipment from the camera, on-device, and suggests exercises and workout plans.",
+      "tags": [
+        "Flutter",
+        "Riverpod",
+        "TFLite",
+        "SQLite"
+      ]
+    },
+    {
+      "title": "Gym Equipment Detection Model",
+      "category": "AI / ML",
+      "link": "https://github.com/BinayakSinha/Gym_Equipment_Detection_Model_Train_Tflite",
+      "description": "The model pipeline behind the gym app: GroundingDINO auto-annotation, Albumentations augmentation, EfficientDet-Lite0 transfer learning, mAP evaluation, and fp16/int8 quantization with a speed-vs-accuracy benchmark.",
+      "tags": [
+        "TensorFlow",
+        "EfficientDet-Lite0",
+        "TFLite",
+        "GroundingDINO"
       ]
     },
     {
       "title": "Real-time AI Assistant Backend",
       "category": "BACKEND",
-      "description": "A high-performance, asynchronous Python backend that simulates a real-time AI agent. It covers bi-directional WebSockets, LLM token streaming, complex agentic tool use and asynchronous database persistence.",
+      "link": "https://github.com/BinayakSinha/Realtime_AI_Backend",
+      "description": "Bi-directional WebSockets with LLM token streaming, an agentic tool-calling loop against the database, async persistence, and LLM-generated session summaries as memory.",
       "tags": [
-        "Python",
+        "FastAPI",
         "WebSockets",
-        "LLM Streaming",
-        "Agents"
+        "Groq Llama 3.1",
+        "Supabase"
       ]
     },
     {
-      "title": "Mini-LangGraph Workflow Engine",
-      "category": "BACKEND",
+      "title": "Agentic Workflow Engine",
+      "category": "AI AGENTS",
       "badge": "INTERNSHIP ASSIGNMENT",
-      "description": "A lightweight, async-first backend engine for defining and executing agentic workflows. Built for an AI Engineering internship assignment.",
+      "link": "https://github.com/BinayakSinha/Assignment_Tredence_Analytics",
+      "description": "An async graph engine for agent workflows, in the spirit of a mini LangGraph: conditional and cyclic routing, typed Pydantic state, a node registry, swappable stores, a max-steps circuit breaker and WebSocket step streaming. The demo is a code-review agent with a review-and-improve loop.",
       "tags": [
         "Python",
-        "Async",
-        "Agent Workflows"
+        "FastAPI",
+        "Pydantic",
+        "asyncio"
+      ]
+    },
+    {
+      "title": "RAG Document Reader",
+      "category": "AI AGENTS",
+      "link": "https://github.com/BinayakSinha/RAG_Document_Reader-LLAMA2-",
+      "description": "Chunks and embeds PDF and DOCX files into a FAISS index, retrieves the top passages and answers questions with a local Llama 2.",
+      "tags": [
+        "FastAPI",
+        "Sentence-Transformers",
+        "FAISS",
+        "Ollama"
       ]
     },
     {
       "title": "Product Recommendation System",
       "category": "AI / ML",
       "badge": "FINAL YEAR PROJECT",
-      "description": "Product data lives in MongoDB. A search query, combined with the budget limit and filters the user sets, returns the k nearest matching products.",
+      "link": "https://github.com/BinayakSinha/Product_Recommendation_System",
+      "description": "Scraped Amazon product data across five categories into MongoDB. Natural-language search with a budget and filters returns the k nearest products, backed by aspect-based review sentiment with a fine-tuned DeBERTa-v3.",
       "tags": [
         "MongoDB",
-        "k-NN",
-        "Search"
+        "PyTorch",
+        "DeBERTa-v3",
+        "Streamlit"
       ]
     },
     {
-      "title": "Tripster",
-      "category": "APPS",
-      "description": "Builds trip plans from a search query, in the same spirit as the product recommender but with filters like number of days and budget. Data in Supabase, locations from the Google Maps API.",
+      "title": "Song Recommendation using Grover",
+      "category": "QUANTUM",
+      "badge": "ANANTWAVE INTERNSHIP",
+      "link": "https://github.com/BinayakSinha/Song-Recommendation-System-Using-Grover",
+      "description": "Grover's quantum search applied to Spotify song recommendation, benchmarked against classical baselines.",
       "tags": [
-        "Supabase",
-        "Google Maps API"
+        "PennyLane",
+        "Pandas",
+        "NumPy"
       ]
     },
     {
-      "title": "Product Price Tracker",
-      "category": "AUTOMATION",
-      "description": "A continuous daily web-scrape pipeline that keeps a Supabase database up to date, with a React UI and a Python pipeline. It emails me when a price drops below the base price I set.",
-      "tags": [
-        "Python",
-        "Scraping",
-        "Supabase",
-        "React"
-      ]
-    },
-    {
-      "title": "Financial Tracker Using SMS",
-      "category": "AUTOMATION",
-      "description": "Tracks savings, spending and current balance. MacroDroid and Tailscale trigger whenever a transaction SMS arrives. Each month it cross-checks the totals against the bank statement PDF from email.",
-      "tags": [
-        "MacroDroid",
-        "Tailscale",
-        "PDF parsing"
-      ]
-    },
-    {
-      "title": "Gym App",
-      "category": "APPS",
-      "badge": "IN PROGRESS",
-      "description": "A Flutter app that scans gym equipment, names it, and lists the exercises you can do with it. It currently classifies 5 machines at 75% accuracy, and it also helps plan workouts.",
-      "tags": [
-        "Flutter",
-        "Image Classification"
-      ]
-    },
-    {
-      "title": "Bengali to English Translator",
+      "title": "ATS Resume Checker & Builder",
       "category": "AI / ML",
-      "description": "A Bengali to English translator built on a BERT model from Hugging Face.",
+      "link": "https://github.com/BinayakSinha/Resume",
+      "description": "Parses resume PDFs, extracts skills and scores the resume against a job description with TF-IDF cosine similarity. The builder uses Flan-T5 to polish experience and write a summary, then renders one of three templates to PDF.",
       "tags": [
-        "NLP",
-        "BERT",
-        "Hugging Face"
+        "spaCy",
+        "scikit-learn",
+        "Flan-T5",
+        "Streamlit"
       ]
     },
     {
-      "title": "RAG Using Llama 2",
+      "title": "Fruit & Vegetable Classifier",
       "category": "AI / ML",
-      "description": "Practice project exploring chunking strategies for retrieval-augmented generation.",
+      "link": "https://github.com/BinayakSinha/Fruit_and-_vegetable_classifier",
+      "description": "A CNN trained on 36 classes of fruits and vegetables, with accuracy and loss curves and a Streamlit app.",
       "tags": [
-        "Llama 2",
-        "RAG"
-      ]
-    },
-    {
-      "title": "stackbot-agent",
-      "category": "AI / ML",
-      "description": "Prompt-engineering practice: an agent that recommends a tech stack to junior developers for their projects, using Gemini 2.5.",
-      "tags": [
-        "Gemini 2.5",
-        "Prompt Engineering"
+        "TensorFlow",
+        "Keras",
+        "Streamlit"
       ]
     },
     {
       "title": "Quantum Binary Classifier",
       "category": "QUANTUM",
-      "description": "A first quantum computing project: a binary classifier.",
+      "link": "https://github.com/BinayakSinha/Quantum_Binary_Classifier",
+      "description": "A hybrid quantum-classical binary classifier on Fashion-MNIST.",
       "tags": [
-        "Quantum Computing"
+        "TensorFlow Quantum",
+        "Cirq"
       ]
     },
     {
-      "title": "Fruit and Vegetable Classifier",
-      "category": "AI / ML",
-      "description": "Built and trained a Keras neural network to classify fruits and vegetables.",
-      "tags": [
-        "Keras",
-        "Neural Networks"
-      ]
-    },
-    {
-      "title": "Resume",
+      "title": "Bengali Voice Translator",
       "category": "APPS",
-      "description": "An ATS checker and resume builder.",
+      "link": "https://github.com/BinayakSinha/BengaliTrans",
+      "description": "Recognises Bengali speech, translates it to English and speaks the result aloud.",
       "tags": [
-        "ATS"
+        "SpeechRecognition",
+        "googletrans",
+        "gTTS"
       ]
     },
     {
-      "title": "Binance Trading Bot",
-      "category": "AUTOMATION",
-      "description": "An automated trade workflow for Binance.",
+      "title": "Binance Futures Trading Bot",
+      "category": "DATA & AUTOMATION",
+      "link": "https://github.com/BinayakSinha/Binance-Trading-Bot",
+      "description": "Places market, limit and stop-limit orders on the Binance Futures testnet, with validation, error handling, logging and a Dockerfile.",
       "tags": [
-        "Trading",
-        "Automation"
+        "Python",
+        "python-binance",
+        "Docker"
       ]
     },
     {
-      "title": "Crypto_bot",
-      "category": "AI / ML",
-      "description": "Practice project on crypto mining and price prediction.",
+      "title": "StackBot Agent",
+      "category": "AI AGENTS",
+      "badge": "PRACTICE",
+      "link": "https://github.com/BinayakSinha/stackbot-agent",
+      "description": "An agent that recommends a tech stack for a project idea.",
       "tags": [
-        "Prediction"
-      ]
-    },
-    {
-      "title": "jenkins-selenium-pipeline",
-      "category": "AUTOMATION",
-      "description": "A QA testing workflow.",
-      "tags": [
-        "Jenkins",
-        "Selenium",
-        "CI/CD"
+        "Google ADK",
+        "Gemini 2.5 Flash"
       ]
     },
     {
       "title": "Data Hub",
-      "category": "APPS",
-      "description": "A data hub built in React, as practice.",
+      "category": "FULL STACK",
+      "badge": "PRACTICE",
+      "link": "https://github.com/BinayakSinha/data_hub",
+      "description": "A data-pipeline dashboard UI built with atomic design, with component unit tests, coverage reports and Storybook.",
       "tags": [
-        "React"
+        "React",
+        "TypeScript",
+        "Vitest",
+        "Storybook"
+      ]
+    },
+    {
+      "title": "Jenkins Learning Pipeline",
+      "category": "DATA & AUTOMATION",
+      "badge": "PRACTICE",
+      "link": "https://github.com/BinayakSinha/jenkins-learning-pipeline",
+      "description": "A declarative Jenkins pipeline: checkout, checks, a Python ETL run and archived artifacts.",
+      "tags": [
+        "Jenkins",
+        "Python"
+      ]
+    },
+    {
+      "title": "Docker Practice",
+      "category": "DATA & AUTOMATION",
+      "badge": "PRACTICE",
+      "link": "https://github.com/BinayakSinha/Docker_practice",
+      "description": "A multi-container app (Flask web service plus Redis) with connection retries.",
+      "tags": [
+        "Docker Compose",
+        "Flask",
+        "Redis"
       ]
     }
   ],
@@ -275,13 +534,13 @@
     {
       "issuer": "Anthropic",
       "items": [
-        "Claude with Google Cloud’s Vertex AI",
-        "Claude with Amazon Bedrock",
-        "Claude Code in Action",
         "Building with the Claude API",
+        "Claude Code in Action",
         "Introduction to Model Context Protocol",
         "Model Context Protocol: Advanced Topics",
         "Introduction to Agent Skills",
+        "Claude with Amazon Bedrock",
+        "Claude with Google Cloud’s Vertex AI",
         "Claude 101",
         "AI Fluency: Framework & Foundations"
       ]
@@ -298,8 +557,8 @@
     {
       "issuer": "NVIDIA",
       "items": [
-        "Fundamentals of Deep Learning",
         "Building Transformer-Based NLP Applications",
+        "Fundamentals of Deep Learning",
         "Accelerating End-to-End Data Science Workflows",
         "Applications of AI for Predictive Maintenance"
       ]
@@ -319,16 +578,15 @@
       ]
     },
     {
-      "issuer": "VIT-AP",
-      "items": [
-        "Quantum Computing, Machine Learning and AI",
-        "Machine Learning Club (MLC VIT-AP)"
-      ]
-    },
-    {
       "issuer": "IBM",
       "items": [
         "Gen AI Using IBM watsonx"
+      ]
+    },
+    {
+      "issuer": "VIT-AP University",
+      "items": [
+        "Quantum Computing, Machine Learning and AI"
       ]
     },
     {

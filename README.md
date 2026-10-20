@@ -8,15 +8,16 @@ All portfolio content lives in **`data.json`**:
 
 | Key              | What it fills                    |
 |------------------|----------------------------------|
-| `skills`         | ARSENAL screen (grouped tags)    |
-| `experience`     | QUESTS screen (`active: true` shows the IN PROGRESS stamp) |
-| `projects`       | MISSIONS screen. Optional fields: `badge`, `link` (repo/demo URL) |
+| `profile`        | Bio paragraphs (wrap words in `**…**` to highlight), location/language tags, education card |
+| `skills`         | ARSENAL screen. Each item is a string, or `{"name": "Kubernetes", "level": "Basic"}` to show it dashed as foundational |
+| `experience`     | QUESTS screen: `points` (bullets), `tech` (chips), optional `location`; `active: true` shows the IN PROGRESS stamp |
+| `projects`       | MISSIONS screen. Optional fields: `badge`, `link` (repo/demo URL; no link = no button) |
 | `certifications` | TROPHIES screen (grouped by issuer) |
 
 Counters on the menu and profile screen, and the project filter buttons, are calculated from this file automatically.
 New project categories get their own filter button automatically.
 
-Bio, education and contact links are in `index.html` (search for `p-profile` / `p-contact`).
+Contact links are in `index.html` (search for `p-contact`).
 
 ## Previewing locally
 

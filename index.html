@@ -256,10 +256,10 @@ a{color:inherit}
   body{overflow:auto}
   html,body{height:auto}
   .stage{height:100vh;height:100svh;min-height:580px;padding-block:96px 70px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column}
-  .hero{position:absolute;left:auto;right:11%;bottom:7%;height:min(66%,620px);width:auto;transform:rotate(4deg);animation:none}
+  .hero{position:absolute;left:auto;right:9%;bottom:7%;height:min(66%,620px);width:auto;transform:rotate(4deg);animation:none}
   .stage.picked .hero{animation:none}
   .status{position:relative;top:auto;right:auto;width:auto;max-width:360px;align-self:flex-end;order:0;margin-top:0}
-  nav{position:relative;z-index:5}
+  nav{position:relative;z-index:5;margin-top:auto;margin-bottom:max(12px,4svh)}
   .menu{position:relative;left:auto;top:auto;margin-top:22px;transform:rotate(-6deg)}
   .menu li{margin-left:0!important}
   .menu li:nth-child(even){margin-left:22px!important}
@@ -271,6 +271,9 @@ a{color:inherit}
   .slash{left:58%}
   .hint{display:none}
   .tally{left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));flex-wrap:wrap}
+  .tally{flex-wrap:nowrap;gap:5px}
+  .tally div{padding:5px 7px 4px;font-size:10px;letter-spacing:.06em;white-space:nowrap}
+  .tally b{font-size:18px;margin-right:3px}
   .prof,.missions{grid-template-columns:minmax(0,1fr)}
   .profimg{order:-1}
   .profimg img{height:340px}
